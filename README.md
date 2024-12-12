@@ -11,10 +11,9 @@ This project focuses on analyzing census income data infomation for the year of 
 Link to repository: https://github.com/hippopotamuspal/MachineLearningProject 
 
 
-
 ### Step-by-Step Process-
 1. Data Import and Initial Cleaning:
-We imported out data through a csv file. We replaced various values in multiple collumns.  There were various values such as "?" and replaced them to become "Unknown". We also had to strip and lower the values to help clean the values. 
+We imported out data through a csv file. We replaced various values in multiple collumns.  There were various values such as "?" and replaced them to become "Unknown". We also had to strip and lower the values to help clean the values if they had any leading or spaces towards the end.  
 
 2. Date Formatting and Sorting:
  
@@ -25,15 +24,20 @@ We imported out data through a csv file. We replaced various values in multiple 
 5. 
 
 
-6. Saving Cleaned Data:
+6. Reading Data into Pyspark: 
+The cleaned data set had our target values of income being over or under $50,000 resulting in a value of 0 being under 50,000, and 1 being over 50,000.  Then read the dataset into Pyspark and converted the pandas dataframe into a Pyspark dataframe.
+
+Also ecoded all of the varibles with get_dummies to get the whole dataframe into values of 0 or 1 of those values that weren't numerical orginally. 
+
+Then we extracted the income column to a seperate dataframe. Then further converted the Pyspark datafram back into Pandas. 
+
  
-7. Grouping Data for Analysis:
+7.
  
 8. 
-9. Models used:
-
-Linear Regression Model
-KNN 
+9. Models used to view the accuracy: 
+Linear Regression Model,
+KNN, 
 Random Forest 
 
 10. 
@@ -59,6 +63,10 @@ Link to slides: https://www.canva.com/design/DAGYefdtCZM/nLaOspHxI0nWZ0vJPAlktw/
 ### Credit and Sources- 
 
 Dataset: https://www.kaggle.com/datasets/tawfikelmetwally/census-income-dataset
+
+The dataset had a a test csv along with a full csv.
+
+For our project we used the full csv titled "adult.csv".
 
 
 

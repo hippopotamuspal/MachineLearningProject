@@ -19,12 +19,12 @@ Link to repository: https://github.com/hippopotamuspal/MachineLearningProject
     - Null values were replaced, and categorical data was one-hot encoded.
     - Numerical columns were normalized and standardized to improve model performance.
 1. PySpark Incorporation:
-    -Data preprocessing included PySpark queries to separate our target column from the rest of the dataset to prepare our data for fitting.
+    - Data preprocessing included PySpark queries to separate our target column from the rest of the dataset to prepare our data for fitting.
 1. Model Training and Evaluation:
- -A Logistic Regression model was implemented and compared with K-Nearest Neighbors (KNN) and Random Forest models.
- -Highest Yields
-    -Logistic Regression & Random Forest achieved 84% accuracy
-    -KNN delivered competitive but slightly lower performance (~78%).
+    - A Logistic Regression model was implemented and compared with K-Nearest Neighbors (KNN) and Random Forest models.
+    - Highest Yields
+    - Logistic Regression & Random Forest achieved 84% accuracy
+    - KNN delivered competitive but slightly lower performance (~78%).
 
 ### Data Model Optimization
 - Iterative tuning included adjustments to hyperparameters such as the number of neighbors in KNN, depth in Random Forest, and regularization in Logistic Regression.

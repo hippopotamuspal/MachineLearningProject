@@ -64,13 +64,15 @@ Link to slides: https://www.canva.com/design/DAGYefdtCZM/nLaOspHxI0nWZ0vJPAlktw/
 ### Data Ethics- 
 
 
-### Credit and Sources- 
+### Credit, Sources and References- 
 
 Dataset: https://www.kaggle.com/datasets/tawfikelmetwally/census-income-dataset
 
 The dataset had a a test csv along with a full csv.
 
 For our project we used the full csv titled "adult.csv".
+
+References: Prior assignments and chatgpt were used to help create models. 
 
 
 

@@ -33,7 +33,7 @@ Link to repository: https://github.com/hippopotamuspal/MachineLearningProject
 
 ### Conclusion-
 
-We achieved moderately successful results with our project. The Logistic Regression model reached an accuracy of 84%, K-Nearest Neighbors achieved 78%, and the optimized Random Forest model delivered accuaracy like the logitic regression of 84.3%. Iterative tuning of hyperparameters improved performance especially in the Random Forest model. We feel that these results highlight how important it is to choose an effective model and how important optimization can be in iteratively developing more and more meaningful predictions.
+We achieved moderately successful results with our project. The Logistic Regression model reached an accuracy of 84%, K-Nearest Neighbors achieved 78%, and the optimized Random Forest model delivered accuracy like the logistic regression of 84.3%. Iterative tuning of hyperparameters improved performance especially in the Random Forest model. We feel that these results highlight how important it is to choose an effective model and how important optimization can be in iteratively developing more and more meaningful predictions.
 
 ### Presentation-
 
@@ -48,11 +48,11 @@ This project involves pretty sensitive socioeconomic data and needed some more c
 
 Dataset: https://www.kaggle.com/datasets/tawfikelmetwally/census-income-dataset
 
-The dataset had a a test csv along with a full csv.
+The dataset had a test csv along with a full csv.
 
 For our project we used the full csv titled "adult.csv".
 
-References: Prior assignments and chatgpt were used to help create models. 
+References: Prior assignments and chatgpt were used to help create models. Chat GPT was also used for debugging purposes 
 
 
 

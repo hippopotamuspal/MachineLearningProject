@@ -29,7 +29,7 @@ Link to repository: https://github.com/hippopotamuspal/MachineLearningProject
 ### Data Model Optimization
 - Iterative tuning included adjustments to hyperparameters such as the number of neighbors in KNN, depth in Random Forest, and regularization in Logistic Regression.
 - Performance metrics (accuracy, precision, recall, and F1-score) were recorded at each iteration and displayed in the script for clarity.
-- The optimized Random Forest model with hyperparameters such as 2000 estimators and a maximum depth of 15 demonstrated the best performance.
+- The optimized Random Forest model with hyperparameters such as 2000 estimators and a maximum depth of 15 demonstrated some of the best performance.
 
 ### Conclusion-
 

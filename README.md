@@ -15,11 +15,9 @@ Link to repository: https://github.com/hippopotamuspal/MachineLearningProject
 
 ### Step-by-Step Process-
 1. Data Import and Initial Cleaning:
-We imported out data through a csv file.  There were various values such as "?" and replaced them to become "Unknown". We also had to strip and lower the values to help clean the values if they had any leading or spaces towards the end.  
+We imported out data through a csv file. (This can be found in the repo inside the datasets folder titled "adult.csv".)
 
-We also had to filer out values in the "Workclass" column labeled as "never-worked" and "without-pay".  This was done through the isin function.
-
-Also having to drop multiple columns from our dataframe such as "Education", "Capital Gain", and "capital loss".  And renaming the "EducationNum" column to "Education Rank". 
+    Also having to drop multiple columns from our dataframe such as "Education", "Capital Gain", and "capital loss".  And renaming the "EducationNum" column to "Education Rank". 
 
 2. The file was ran through google collab with the adult.csv file having to be imported into collab for the script to run properly. 
  

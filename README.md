@@ -5,7 +5,7 @@
 ## Contributors Quinn Daley, Sanjana Prabhakar, Mackenzie Deets, and Conner Dekok
 
 ## Overview
-This project utilizes 1994 census data to predict whether an individual's income exceeds $50,000 based on set demographic and professional data. The dataset included features like as age, education, marital status, occupation, and race. Our objective was to optimize machine learning models to achieve high predictive performance in who did and who did not make more than $50,000 in 1994 based upon these features.For this project, we primarily focused on training at least one of our three models to have an accuracy total of over 75%.
+This project utilizes 1994 census data to predict whether an individual's income exceeds $50,000 based on set demographic and professional data. The dataset included features like as age, education, marital status, occupation, and race. Our objective was to optimize machine learning models to achieve high predictive performance in who did and who did not make more than $50,000 in 1994 based upon these features. For this project, we primarily focused on training at least one of our three models to have an accuracy total of over 75%.
 
 ### Repo Path and HTML 
 Link to repository: https://github.com/hippopotamuspal/MachineLearningProject 
